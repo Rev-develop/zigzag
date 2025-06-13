@@ -1,0 +1,53 @@
+body {
+  height:500px;
+}
+
+.bday-img {
+  border-radius: 50%;
+  height:30px;
+  width:30px;
+  position:fixed;
+  right:100px;
+  bottom:0px;
+}
+.effect {
+  transform: translateY(-400px);
+  transition: transform 5s;
+  animation: zigzag 5s ease-in-out forwards;
+}
+ @keyframes zigzag {
+    
+    0% {
+      translate: -30px -20px;
+    }
+   10% {
+     translate: 30px -40px;
+   }
+   20% {
+     translate: -30px -60px;
+   }
+   30% {
+     translate: 30px -80px;
+   }
+40% {
+     translate: -30px -100px;
+   }
+50% {
+     translate: 30px -120px;
+   }
+60% {
+     translate: -30px -140px;
+   }
+70% {
+     translate: 30px -160px;
+   }
+80% {
+     translate: -30px -180px;
+   }
+90% {
+     translate: 30px -200px;
+   }
+100% {
+     translate: -30px -220px;
+   }
+ }
